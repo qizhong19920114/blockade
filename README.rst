@@ -5,6 +5,8 @@ Blockade
 .. image:: https://travis-ci.org/worstcase/blockade.png?branch=master
         :target: https://travis-ci.org/worstcase/blockade
 
+Forked from the original blockade tool developed by Amazon Engineer. 
+
 Blockade is a utility for testing network failures and partitions in
 distributed applications. Blockade uses `Docker <http://www.docker.io>`_
 containers to run application processes and manages the network from
@@ -96,7 +98,7 @@ Blockade may be used from the command line manually. The commands are also
 intended to be easy to wrap and automate within tests, etc.
 
 
-Commands
+Commands:
 ========
 
 ``blockade up``
@@ -113,6 +115,11 @@ Destroys all containers and restore networks.
 
 Print the status of the containers and blockade.
 
+
+Activation:
+========== 
+
+The following commands will activate the network settings in yaml file, which these commands the network emulation effect won't show.  
 
 ``blockade flaky n1``
 
